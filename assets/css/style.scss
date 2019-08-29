@@ -1,6 +1,6 @@
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3))), url(/Psychic-Game/assets/images/background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(/Psychic-Game/assets/images/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(/Psychic-Game/assets/images/background.jpg);
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  color: #dbffff;
+  color: rgb(219, 255, 255);
   text-align: center;
   font-size: 4em;
   margin: 10px 0px 0px 20px;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h3 {
-  color: #dbffff;
+  color: rgb(219, 255, 255);
   text-align: center;
   font-size: 2em;
   margin: 10px 0px 0px 20px;
@@ -25,10 +25,11 @@ h3 {
 }
 
 .game {
-  color: #dbffff;
+  color: rgb(219, 255, 255);
   font-size: 1.5em;
   margin: 50px 0px 0px 50px;
   line-height: 4em;
   font-family: "Special Elite", cursive;
+  //   font-family: "Roboto", sans-serif;
+  //   font-family: "Monofett", cursive;
 }
-/*# sourceMappingURL=style.css.map */
